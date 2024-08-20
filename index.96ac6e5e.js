@@ -1,0 +1,2 @@
+var e=document.querySelector("body"),t=document.querySelector(".logo");!function(){try{t.addEventListener("click",function(){e.insertAdjacentHTML("afterbegin",'<div class="message">Promise was resolved!</div>')})}catch(e){}}(),function(){try{setTimeout(function(){e.insertAdjacentHTML("afterbegin",'<div class="message error-message">Promise was rejected!</div>')},2e3)}catch(e){}}();
+//# sourceMappingURL=index.96ac6e5e.js.map
